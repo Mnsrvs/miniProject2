@@ -40,7 +40,6 @@ body {
     color: white;
 }
 div img{
-    margin-top: 10px;
     width: 100px;
 }
 
@@ -942,24 +941,31 @@ footer{
 	gap: 10px;
 	align-items: center;
 	background-color: #423e3e;
-	padding-bottom: 30px;
 	border-radius: 10px;
-	
 }
+
+div .product {
+ padding: 30px 10px;
+}
+
 #allproducts .container .content .products .product:hover {
 	box-shadow: 5px 5px 20px #6f6e6e;
 }
 
 #allproducts .container .content .products .product img {
 	width: 200px;
-	height: 250px;
+	height: 200px;
 	object-fit: contain;
 	cursor: pointer;
 }
 #allproducts .container .content .products .product .name {
 	height: 100px;
-	font-size: small;
+	font-size: 1em;
 	text-align: center;
+}
+
+.name span {
+	font-weight: 900;
 }
 
 #allproducts .container .content .products .product .product_price {
@@ -968,7 +974,8 @@ footer{
 	gap: 70px;
 }
 #allproducts .container .content .products .product .product_price span {
-	font-size: 25px;
+	font-size: 1.5em;
+	font-weight: 500;
 }
 
 #allproducts .container .content .products .product .product_price button {
